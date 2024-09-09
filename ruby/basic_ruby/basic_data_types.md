@@ -45,7 +45,7 @@ You probably already know what numbers are, so there's no need to go into elabor
 
 There are two main types of numbers in Ruby. **Integers** are whole numbers, such as 10. **Floats** are numbers that contain a decimal point, such as 10.5, 10.0, or 0.25.
 
-It's important to keep in mind that when doing arithmetic with two integers in Ruby, *the result will always be an integer*.
+It's important to keep in mind that when doing arithmetic with two integers in Ruby, _the result will always be an integer_.
 
 ```ruby
 17 / 5    #=> 3, not 3.4
@@ -72,7 +72,7 @@ Ruby makes it very easy to convert floats to integers and vice versa.
 
 As shown in the last example above, when Ruby converts a float to an integer, the decimal places are cut off. Ruby doesn't do any rounding in this conversion.
 
-#### Some useful number methods
+#### Useful number methods
 
 There are many useful methods for numbers built into Ruby. For example,
 
@@ -98,7 +98,7 @@ At first glance, you might think that strings are just a bunch of characters tha
 
 #### Double and single quotation marks
 
-Strings can be formed with either double `""` or single`''` quotation marks, also known as *string literals*. They are pretty similar, but there are some differences. Specifically, string interpolation and the escape characters that we'll discuss soon both only work inside double quotation marks, not single quotation marks.
+Strings can be formed with either double `""` or single`''` quotation marks, also known as _string literals_. They are pretty similar, but there are some differences. Specifically, string interpolation and the escape characters that we'll discuss soon both only work inside double quotation marks, not single quotation marks.
 
 #### Concatenation
 
@@ -176,7 +176,7 @@ puts 'Hello, #{name}' #=> "Hello, #{name}"
 
 #### Common string methods
 
-There are many useful string methods that are built into Ruby. You need to capitalize a word? No problem! Reverse a string? Easy peasy. Extract the binary subatomic algorithm from any regex grep? We don't know, but since this is Ruby, let's go with *YES*.
+There are many useful string methods that are built into Ruby. You need to capitalize a word? No problem! Reverse a string? Easy peasy. Extract the binary subatomic algorithm from any regex grep? We don't know, but since this is Ruby, let's go with _YES_.
 
 Just remember, strings have loads of methods provided to you for free, and you can find them all in the [Ruby docs for the String class](https://docs.ruby-lang.org/en/3.3/String.html). If you're working with strings and need to do something, check the Ruby docs first and see if there's a method that does it for you.
 
@@ -290,7 +290,7 @@ To create a symbol, put a colon at the beginning of some text:
 
 #### Symbols vs. strings
 
-To get a better idea of how symbols are stored in memory, give this a whirl in irb or a REPL. The [`#object_id` method](https://docs.ruby-lang.org/en/3.3/Object.html#method-i-object_id) returns an integer identifier for an object. (And remember: in Ruby, *everything* is an object!)
+To get a better idea of how symbols are stored in memory, give this a whirl in irb or a REPL. The [`#object_id` method](https://docs.ruby-lang.org/en/3.3/Object.html#method-i-object_id) returns an integer identifier for an object. (And remember: in Ruby, _everything_ is an object!)
 
 ```ruby
 "string" == "string"  #=> true
@@ -316,14 +316,14 @@ In Ruby, `nil` represents "nothing". Everything in Ruby has a return value. When
 
 <div class="lesson-content__panel" markdown="1">
 
-1. Read the [Basics chapter of LaunchSchool's *Introduction to Programming With Ruby*](https://launchschool.com/books/ruby/read/basics) for a different explanation of Ruby's data types. Be sure to also complete the exercises.
+1. Read the [Basics chapter of LaunchSchool's _Introduction to Programming With Ruby_](https://launchschool.com/books/ruby/read/basics) for a different explanation of Ruby's data types. Be sure to also complete the exercises.
 1. [Read Alex Chaffee’s brief writeup on Objects](https://codelikethis.com/lessons/learn-to-code/objects), for a basic understanding of what objects are in programming. We will explore this topic much deeper later in the course.
 1. Now it is time to complete some test-driven exercises to practice what you have learned in this lesson.
 
-    - Follow the cloning and installation instructions in the main README to set up our [ruby-exercise repo](https://github.com/TheOdinProject/ruby-exercises).
-    - Then follow the instructions in the [ruby-basics README](https://github.com/TheOdinProject/ruby-exercises/tree/main/ruby_basics) to complete the `1_data_types` exercises.
-    - If you get stuck, ask questions in the #ruby-help channel in our Discord server.
-    - After you have completed the exercises, check out the solutions branch on GitHub to compare solutions.
+   - Follow the cloning and installation instructions in the main README to set up our [ruby-exercise repo](https://github.com/TheOdinProject/ruby-exercises).
+   - Then follow the instructions in the [ruby-basics README](https://github.com/TheOdinProject/ruby-exercises/tree/main/ruby_basics) to complete the `1_data_types` exercises.
+   - If you get stuck, ask questions in the #ruby-help channel in our Discord server.
+   - After you have completed the exercises, check out the solutions branch on GitHub to compare solutions.
 
 </div>
 
@@ -355,7 +355,7 @@ The following questions are an opportunity to reflect on key topics in this less
 
 This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
-- If you want to go deeper into Ruby's numbers and string data types, read these chapters from the *Bastards Book of Ruby*:
+- If you want to go deeper into Ruby's numbers and string data types, read these chapters from the _Bastards Book of Ruby_:
   - [Numbers](http://ruby.bastardsbook.com/chapters/numbers/)
   - [Strings](http://ruby.bastardsbook.com/chapters/strings/)
 - Read through these Ruby Monstas sections about data types:

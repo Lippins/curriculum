@@ -10,7 +10,7 @@ This section contains a general overview of topics that you will learn in this l
 - Explain what the `+=`, `-=`, `*=`, and `/=` assignment operators do.
 - Describe the naming conventions for variables.
 
-### Declaring a variable
+### Variable Declarations
 
 This is how to create a variable in Ruby:
 
@@ -62,7 +62,7 @@ temperature = 40
 temperature /= 10 #=> 4
 ```
 
-#### How to name variables
+#### Variable Names
 
 Ruby is a language that aims to be natural to read and easy to write. Remember this when you're naming your variables. The name should, as clearly as possible, describe what the value of the variable represents.
 
@@ -114,11 +114,11 @@ This example may be hard to completely understand at this point in the lesson. T
 
 <div class="lesson-content__panel" markdown="1">
 
-1. Read the [Variables](https://launchschool.com/books/ruby/read/variables) chapter from LaunchSchool's brilliant *Introduction to Programming With Ruby*. As indicated in this article, remember that you should not use `$global_variables`. Additionally, `@@class_variables` are rarely needed and easily misused.
+1. Read the [Variables](https://launchschool.com/books/ruby/read/variables) chapter from LaunchSchool's brilliant _Introduction to Programming With Ruby_. As indicated in this article, remember that you should not use `$global_variables`. Additionally, `@@class_variables` are rarely needed and easily misused.
 1. Read through these short, to-the-point variable lessons by Ruby Monstas:
-      - [Overview of Variables](http://ruby-for-beginners.rubymonstas.org/variables.html)
-      - [Reusing Variable Names](http://ruby-for-beginners.rubymonstas.org/variables/reusing_names.html)
-      - [Things on the Right Go First](http://ruby-for-beginners.rubymonstas.org/variables/right_goes_first.html)
+   - [Overview of Variables](http://ruby-for-beginners.rubymonstas.org/variables.html)
+   - [Reusing Variable Names](http://ruby-for-beginners.rubymonstas.org/variables/reusing_names.html)
+   - [Things on the Right Go First](http://ruby-for-beginners.rubymonstas.org/variables/right_goes_first.html)
 1. Open up a Ruby [replit.com](https://replit.com/languages/ruby) or use IRB in your command line and try naming some variables and assigning values to them. Don't worry so much about good naming conventions at this stage. Instead, experiment with different variable names and see what is valid. Try using symbols or numbers in your variable names. Try assigning a variable to another variable and observe the behavior when using `upcase!`, as in the example above. If you come across anything quirky, Google it to find out why it happened.
 
 </div>
@@ -139,6 +139,6 @@ The following questions are an opportunity to reflect on key topics in this less
 
 This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
-- Read the full [Variables chapter from *The Bastards Book of Ruby*](http://ruby.bastardsbook.com/chapters/variables) if you can't get enough about variables.
-- [Variables as Pointers](https://launchschool.com/books/ruby/read/more_stuff#variables_as_pointers), from LaunchSchool's *Introduction to Programming With Ruby*.
+- Read the full [Variables chapter from _The Bastards Book of Ruby_](http://ruby.bastardsbook.com/chapters/variables) if you can't get enough about variables.
+- [Variables as Pointers](https://launchschool.com/books/ruby/read/more_stuff#variables_as_pointers), from LaunchSchool's _Introduction to Programming With Ruby_.
 - If you want to know more about Ruby's naming conventions, check out the [Ruby Style Guide](https://github.com/rubocop-hq/ruby-style-guide). Don't get too deep into it; just know that it's there.
